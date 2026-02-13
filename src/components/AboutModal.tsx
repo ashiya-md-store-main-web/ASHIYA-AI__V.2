@@ -78,7 +78,7 @@ const AboutModal = ({ isOpen, onClose, nekoImage }: AboutModalProps) => {
                   </div>
                   
                   <div>
-                    <h2 className="text-4xl sm:text-5xl font-script font-bold gradient-text tracking-wide drop-shadow-sm">Chiku AI</h2>
+                    <h2 className="text-4xl sm:text-5xl font-script font-bold gradient-text tracking-wide drop-shadow-sm">ASHIYA AI</h2>
                     <p className="text-sm text-muted-foreground font-body mt-1 tracking-wider">Your Kawaii Companion</p>
                   </div>
                   
@@ -119,7 +119,7 @@ const AboutModal = ({ isOpen, onClose, nekoImage }: AboutModalProps) => {
                       <h3 className="font-semibold text-foreground text-sm">Smart</h3>
                     </div>
                     <p className="text-xs text-muted-foreground leading-relaxed">
-                      Powered by advanced AI technology
+                      Powered by ASHIYA-AI
                     </p>
                   </div>
                 </div>
