@@ -49,7 +49,7 @@ serve(async (req) => {
     }
     
     const encoded = encodeURIComponent(truncatedMessage);
-    const endpoint = `https://chiku-bots.vercel.app/Chiku?user_message=${encoded}`;
+    const endpoint = `https://ashiya-ai.slayesh2009.workers.dev/prompt=${encoded}`;
     
     console.log('Calling Chiku API with message length:', truncatedMessage.length);
     
