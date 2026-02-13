@@ -132,15 +132,15 @@ const AboutModal = ({ isOpen, onClose, nekoImage }: AboutModalProps) => {
                   onClick={(e) => e.stopPropagation()}
                   className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary/20 via-accent/20 to-primary/20 hover:from-primary/30 hover:via-accent/30 hover:to-primary/30 border border-primary/30 hover:border-primary/50 text-foreground font-medium transition-all duration-300 hover:scale-105 shadow-xl hover:shadow-2xl hover:shadow-primary/20"
                 >
-                  <Whatsapp className="w-5 h-5" />
-                  <span>Contact Me</span>
+                  <Github className="w-5 h-5" />
+                  <span>View Source Code</span>
                   <ExternalLink className="w-4 h-4 opacity-70" />
                 </a>
 
                 {/* Click me hint */}
                 <div className="pt-2 animate-pulse">
                   <p className="text-xs text-muted-foreground/70 font-body tracking-wider">
-                    🍷 Click anywhere to see credits 🍷
+                    ✨ Click anywhere to see credits ✨
                   </p>
                 </div>
               </div>
