@@ -8,14 +8,15 @@ interface TypingTitleProps {
 
 const Sparkle = ({ delay, style }: { delay: number; style: React.CSSProperties }) => (
   <span
-    className="absolute animate-sparkle pointer-events-none"
-    style={{
-      ...style,
-      animationDelay: `${delay}ms`,
-    }}
-  >
-    ✦
-  </span>
+  className="absolute animate-sparkle pointer-events-none text-green-400 drop-shadow-[0_0_6px_rgba(34,197,94,0.9)]"
+  style={{
+    ...style,
+    animationDelay: `${delay}ms`,
+  }}
+>
+  ✦
+</span>
+
 );
 
 const TypingTitle = ({ text, className = "", speed = 100 }: TypingTitleProps) => {
