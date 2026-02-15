@@ -81,7 +81,7 @@
     --ring: 350 70% 55%;
 
     /* Custom design tokens - Sakura Bloom */
-    --gradient-primary: linear-gradient(135deg, hsl(350 70% 55%), hsl(280 55% 55%));
+    --gradient-primary: linear-gradient(135deg, hsl(350 70% 55%), hsla(123, 55%, 55%, 1));
     --gradient-accent: linear-gradient(135deg, hsl(160 60% 40%), hsl(180 50% 45%));
     --gradient-bg: linear-gradient(180deg, hsl(350 30% 98%), hsl(340 25% 96%));
     
