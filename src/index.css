@@ -38,7 +38,7 @@
     --radius: 1rem;
 
     /* Custom design tokens - Midnight Abyss */
-    --gradient-primary: linear-gradient(135deg, hsl(280 70% 60%), hsl(320 65% 55%));
+    --gradient-primary: linear-gradient(135deg, hsla(126, 70%, 60%, 1), hsla(118, 65%, 55%, 1));
     --gradient-accent: linear-gradient(135deg, hsl(45 90% 55%), hsl(35 85% 50%));
     --gradient-bg: linear-gradient(180deg, hsl(240 20% 3%), hsl(260 25% 5%));
     
@@ -102,7 +102,6 @@
   body {
     @apply bg-background text-foreground font-body antialiased;
     background: var(--gradient-bg);
-    color: #00FF00;
     min-height: 100vh;
   }
 
