@@ -54,7 +54,7 @@ interface ChatCache {
 const getDefaultMessages = (): Message[] => [
   {
     id: "welcome",
-    content: "Hi there! 😊✨ I'm Chiku AI! How can I make your day brighter today? 💖",
+    content: "👋 Hi Welcome to ASHIYA-AI help chat AI 🥷🇱🇰",
     isUser: false,
     timestamp: new Date(),
   },
