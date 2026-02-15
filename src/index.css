@@ -110,13 +110,13 @@
     --tw-prose-body: hsl(0 0% 100%);
     --tw-prose-headings: hsl(0 0% 100%);
     --tw-prose-lead: hsl(0 0% 100%);
-    --tw-prose-links: hsl(280 70% 60%);
+    --tw-prose-links: hsla(121, 70%, 60%, 1);
     --tw-prose-bold: hsl(0 0% 100%);
     --tw-prose-counters: hsl(0 0% 85%);
     --tw-prose-bullets: hsl(0 0% 85%);
     --tw-prose-hr: hsl(240 12% 12%);
     --tw-prose-quotes: hsl(0 0% 100%);
-    --tw-prose-quote-borders: hsl(280 70% 60%);
+    --tw-prose-quote-borders: hsla(119, 70%, 60%, 1);
     --tw-prose-captions: hsl(0 0% 85%);
     --tw-prose-code: hsl(0 0% 100%);
     --tw-prose-pre-code: hsl(0 0% 100%);
