@@ -552,7 +552,7 @@ const Chatbot = () => {
             <NekoAvatar nekoImage={nekoImage} isLoading={isNekoLoading} size="small" />
             <div>
               <h1 className="text-xl sm:text-2xl font-script font-extrabold tracking-wide">
-                <TypingTitle text="Chiku AI" speed={120} />
+                <TypingTitle text="ASHIYA AI" speed={120} />
               </h1>
               <p className="text-[10px] sm:text-xs text-muted-foreground font-body hidden sm:block">Always here for you</p>
             </div>
